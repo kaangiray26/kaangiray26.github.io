@@ -1,16 +1,18 @@
 <rss version="2.0">
     <channel>
-        <title>{{title}} RSS Feed</title>
-        <link>{{address}}</link>
-        <description>{{site_description}}</description>
+        <title>f34rl00 projects RSS Feed</title>
+        <link>https://f34rl00.github.io</link>
+        <description>Personal Blog</description>
 
-        {% for item in items %}
+        
         <item>
-            <title>Example entry</title>
-            <description>Here is some text containing an interesting description.</description>
-            <link>http://www.example.com/blog/post/1</link>
+            <title>shortcut</title>
+            <description>Serverless URL Redirection on Github Pages</description>
+            <link>https://f34rl00.github.io/20211226_shortcut.html</link>
+            <pubDate>Sun, 26 Dec 2021</pubDate>
+            <category>Projects</category>
         </item>
-        {% endfor %}
-
+        
+        
     </channel>
 </rss>
