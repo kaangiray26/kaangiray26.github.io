@@ -1,0 +1,16 @@
+<rss version="2.0">
+    <channel>
+        <title>{{title}} RSS Feed</title>
+        <link>{{address}}</link>
+        <description>{{site_description}}</description>
+
+        {% for item in items %}
+        <item>
+            <title>Example entry</title>
+            <description>Here is some text containing an interesting description.</description>
+            <link>http://www.example.com/blog/post/1</link>
+        </item>
+        {% endfor %}
+
+    </channel>
+</rss>
