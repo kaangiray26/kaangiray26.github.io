@@ -6,6 +6,14 @@
 
         
         <item>
+            <title>nephila</title>
+            <description>Static Website Generator in Python with Markdown</description>
+            <link>https://f34rl00.github.io/20211221_nephila.html</link>
+            <pubDate>Tue, 21 Dec 2021 00:00:00 </pubDate>
+            <category>Projects</category>
+        </item>
+        
+        <item>
             <title>shortcut</title>
             <description>Serverless URL Redirection on Github Pages</description>
             <link>https://f34rl00.github.io/20211226_shortcut.html</link>

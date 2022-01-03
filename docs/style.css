@@ -10,6 +10,23 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: tomato;
+}
+
+img {
+    max-width: 400px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: .25rem!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    display: block!important;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    padding: .5rem!important;
+}
+
 blockquote {
     color: white;
     background-color: steelblue;
